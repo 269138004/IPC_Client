@@ -1,4 +1,4 @@
-package com.example.administrator.ipc_server;
+package com.example.administrator.ipc_client;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.administrator.ipc_client.R;
-import com.example.administrator.ipc_server.aidl_entity.Student;
+import com.example.administrator.ipc_client.IStudentInterface;
+import com.example.administrator.ipc_client.aidl_entity.Student;
 
 import java.util.List;
 
